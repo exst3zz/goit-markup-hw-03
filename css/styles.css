@@ -52,11 +52,11 @@ p {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.div-header {
+.div-container {
   display: flex;
 }
 .container {
-  margin: 0, auto;
+  margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
 }
@@ -99,19 +99,20 @@ p {
 
 .address {
   font-style: normal;
+}
+.address-list {
   display: flex;
   gap: 40px;
 }
-
-.address-contacts {
+.address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.address-contacts:hover,
-.address-contacts:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 /* main  */
